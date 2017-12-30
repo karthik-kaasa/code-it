@@ -46,13 +46,13 @@ I2 = sup2("sup2 class")
 I3 = sub("sub class")
 
 print(I1.x, I1.y) 
-print(I1.__class__.__dict__["x"],     I1.__class__.__dict__["y"])
+print(I1.__class__.__dict__["x"], I1.__class__.__dict__["y"])
 
 print(I2.y, I2.z) 
 print(I2.__class__.__dict__["y"], I2.__class__.__dict__["z"])
 
 print(I3.x, I3.y, I3.z) 
-print(I3.__class__.__bases__[0].__dict__["x"]    , I3.__class__.__dict__["y"], I3.__class__.__bases__[1].__dict__["z"])
+print(I3.__class__.__bases__[0].__dict__["x"], I3.__class__.__dict__["y"], I3.__class__.__bases__[1].__dict__["z"])
 
 """
 output:
