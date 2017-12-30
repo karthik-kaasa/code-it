@@ -14,7 +14,7 @@ B = "11010001010111001010101110101"
 def b2d_enum_slice(B):
     """
     (fastest)
-    Reverse binary string using slice(stride), 
+    Reverse binary string in-place using slice(stride), 
     enumerate it to get bit postions and 
     compute decimal value.
     """
