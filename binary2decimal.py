@@ -89,7 +89,7 @@ DECIMAL:
 Library:  439063925
 b2d_range_index: 439063925
 b2d_enum_slice: 439063925
-b2d_map_multiplication: 439063925
+b2d_map_multiply: 439063925
 ————————————————————
 Iterations: 1000
 Repetitions: 5
