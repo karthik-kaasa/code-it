@@ -53,7 +53,7 @@ print("DECIMAL:")
 print("Library: ", int(B,2))
 print("b2d_range_index:", b2d_range_index(B))
 print("b2d_enum_slice:", b2d_enum_slice(B))
-print("b2d_map_multiplication:", b2d_map_multiply(B))
+print("b2d_map_multiply:", b2d_map_multiply(B))
 print("-" * 60)
 
 iter = 1000
@@ -63,7 +63,7 @@ print("Repetitions: %s" % rep)
 print("-" * 60)
 print("-" * 60)
 
-t0 = timeit.repeat("int(B,2)",setup="from __main__ import B", number=iter, repeat=rep) 
+t0 = timeit.repeat("int(B,2)", setup="from __main__ import B", number=iter, repeat=rep) 
 print("Library time: %s" % min(t0))
 print("-" * 60)
 
@@ -72,7 +72,7 @@ print("b2d_enum_slice: %s" % min(t1))
 print("b2d_enum_slice/Library: %s" % (min(t1)/min(t0)))
 print("-" * 60)
 
-t2 = timeit.repeat("b2d_range_index(B)",setup="from __main__ import b2d_range_index; from __main__ import B;", number=iter, repeat=rep)
+t2 = timeit.repeat("b2d_range_index(B)", setup="from __main__ import b2d_range_index; from __main__ import B;", number=iter, repeat=rep)
 print("b2d_range_index: %s" % min(t2))
 print("b2d_range_index/Library: %s" % (min(t2)/min(t0)))
 print("-" * 60)
