@@ -1,2 +1,2 @@
 # code-it
- Contains many useful programs and untilitis.
+ Contains many useful programs and utilities.
